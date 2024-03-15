@@ -53,16 +53,7 @@ docker run -d -p 8080:8080 -e PROFILE=prd latest
 docker login -u <username>
 ```
 
-* Criar imagem pronta para upload (método 1 - criando nova imagem)
-
-
-```
-docker build -t <username>checkpoint1 .
-```
-
-
-* Criar imagem pronta para upload (método 2 - renomeando imagem existente)
-
+* Criar imagem pronta para upload (Renomeando imagem existente)
 
 ```
 docker tag fiap-checkpoint1 thouser12/fiap-checkpoint1
@@ -73,7 +64,7 @@ docker tag fiap-checkpoint1 thouser12/fiap-checkpoint1
 
 
 ```
-docker thouser12/fiap-checkpoint1 push
+docker push thouser12/fiap-checkpoint1:latest
 ```
 
 
