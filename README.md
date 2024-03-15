@@ -45,31 +45,7 @@ docker run -d -p 8080:8080 -e PROFILE=stg latest
 docker run -d -p 8080:8080 -e PROFILE=prd latest
 ```
 
-#### Docker Hub
-
-* Login
-
-```
-docker login -u <username>
-```
-
-* Criar imagem pronta para upload (Renomeando imagem existente)
-
-```
-docker tag fiap-checkpoint1 thouser12/fiap-checkpoint1
-```
-
-
-* Upload de imagem para o Docker Hub
-
-
-```
-docker push thouser12/fiap-checkpoint1:latest
-```
-
-
-
-#### Navegação
+## Navegação
 
 - Base
 
@@ -86,6 +62,7 @@ http://localhost:8080/ping
 
 ## Integrantes
 
-- Arthur Miranda Santos - RM:93023
-- Thomas D'ávila Meyer Pflug - RM:92915
+- Arthur Miranda Santos - RM:93023  -  https://hub.docker.com/repository/docker/art5hur/fiap-checkpoint1/general
+- Thomas D'ávila Meyer Pflug - RM:92915  -  https://hub.docker.com/repository/docker/thouser12/fiap-checkpoint1/general
+
 
