@@ -32,17 +32,17 @@ docker build -t fiap-checkpoint1 .
 
 ##### Comando "docker" para executar a aplicação a partir do docker hub do respectivo membro com profile "dev"
 ```
-docker run -d -p 8080:8080 -e PROFILE=dev latest
+docker run -d -p 8080:8080 -e PROFILE=dev fiap-checkpoint1
 ```
 
 ##### Comando "docker" para executar a aplicação a partir do docker hub do respectivo membro com profile "stg"
 ```
-docker run -d -p 8080:8080 -e PROFILE=stg latest
+docker run -d -p 8080:8080 -e PROFILE=stg fiap-checkpoint1
 ```
 
 ##### Comando "docker" para executar a aplicação a partir do docker hub do respectivo membro com profile "prd"
 ```
-docker run -d -p 8080:8080 -e PROFILE=prd latest
+docker run -d -p 8080:8080 -e PROFILE=prd fiap-checkpoint1
 ```
 
 ## Navegação
